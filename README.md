@@ -90,8 +90,6 @@ pip install -r requirements.txt
 
 ### 4. Veri Setini İndirin
 
-Proje veri setini indirme komutu (örnek olarak verilmiştir):
-
 ```bash
 wget https://drive.google.com/file/d/1QlnV6PUZ3ic8M1_22cC5bAjJocYZKn1P/view
 unzip Pneumonia.zip
