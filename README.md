@@ -65,16 +65,9 @@ Bu proje, özel bir sınıflandırma görevini gerçekleştirmek için Convoluti
 
 ---
 
-# Projeyi Klonlayın
-
-```bash
-git clone https://github.com/kullanici_adi/Pneumonia(CNN-ANN-Transfer_Learning).git
-cd Pneumonia(CNN-ANN-Transfer_Learning)
-Tabii ki, README dosyanızı daha düzgün bir görünüme kavuşturmak için aşağıda önerilen bir düzenleme var. Ayrıca, tüm komutları tek bir bash penceresinde çalıştırabilmek için uygun düzenlemeler yapıldı.
-
 ```markdown
 # Projeyi Klonlayın
-
+```
 ```bash
 git clone https://github.com/kullanici_adi/Pneumonia(CNN-ANN-Transfer_Learning).git
 cd Pneumonia(CNN-ANN-Transfer_Learning)
