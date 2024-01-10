@@ -1,77 +1,78 @@
 # Proje Başlığı
 
-:information_source: **Dersin Kodu:** [YAZ20411](https://ebp.klu.edu.tr/Ders/dersDetay/YAZ20411/716026/tr)  
-:information_source: **Dersin Adı:** [DERİN ÖĞRENME](https://ebp.klu.edu.tr/Ders/dersDetay/YAZ20411/716026/tr)  
-:information_source: **Dersin Öğretim Elemanı:** Öğr. Gör. Dr. Fatih BAL  [Github](https://github.com/balfatih)   |    [Web Sayfası](https://balfatih.github.io/)
-   
+## Ders Bilgileri
+
+- **Dersin Kodu:** [YAZ20411](https://ebp.klu.edu.tr/Ders/dersDetay/YAZ20411/716026/tr)
+- **Dersin Adı:** [DERİN ÖĞRENME](https://ebp.klu.edu.tr/Ders/dersDetay/YAZ20411/716026/tr)
+- **Dersin Öğretim Elemanı:** Öğr. Gör. Dr. Fatih BAL [Github](https://github.com/balfatih) | [Web Sayfası](https://balfatih.github.io/)
+
 ---
 
 ## Grup Bilgileri
 
-| Öğrenci No | Adı Soyadı           | Bölüm          		   | Proje Grup No | Grup Üyelerinin Github Profilleri                 |
-|------------|----------------------|--------------------------|---------------|---------------------------------------------------|
-| 1200505056 | Yeşim Demir			| Yazılım Mühendisliği     | PROJE_4       | [Github](https://github.com/yesimdemir)     |
-| 1200505026 | Musa Berk İşkal      | Yazılım Mühendisliği     | PROJE_4       | [Github](https://github.com/mberkiskal)     |
-| 1200505002 | Muhsin Öztüfekçi     | Yazılım Mühendisliği     | PROJE_4       | [Github](https://github.com/MuhsinOztufekci)     |
+| Öğrenci No | Adı Soyadı       | Bölüm                | Proje Grup No | Github Profili                             |
+|------------|------------------|----------------------|---------------|--------------------------------------------|
+| 1200505056 | Yeşim Demir      | Yazılım Mühendisliği | PROJE_4       | [Github](https://github.com/yesimdemir)    |
+| 1200505026 | Musa Berk İşkal  | Yazılım Mühendisliği | PROJE_4       | [Github](https://github.com/mberkiskal)   |
+| 1200505002 | Muhsin Öztüfekçi | Yazılım Mühendisliği | PROJE_4       | [Github](https://github.com/MuhsinOztufekci)|
 
 ---
 
 ## Proje Açıklaması
 
-Bu proje, özel bir sınıflandırma görevini gerçekleştirmek için Convolutional Neural Network (CNN), Transfer Learning ve Yapay Sinir Ağı modellerini içerir. 
-Projenin amacı, belirli bir veri kümesindeki nesneleri doğru bir şekilde sınıflandırmaktır.
-Proje, üç farklı yaklaşımı içermektedir:
+Bu proje, özel bir sınıflandırma görevini gerçekleştirmek için Convolutional Neural Network (CNN), Transfer Learning ve Yapay Sinir Ağı modellerini içermektedir. Projenin amacı, belirli bir veri kümesindeki nesneleri doğru bir şekilde sınıflandırmaktır.
 
-CNN Modeli Tasarımı:
+### CNN Modeli Tasarımı
 
-CNN modeli tasarlanmış ve eğitilmiştir.
-Eğitim, test ve doğruluk oranları aşağıda verilmiştir:
+- Tasarlanan CNN modeli eğitilmiş ve performans metrikleri aşağıda listelenmiştir:
+  - Eğitim, test ve doğruluk oranları
+  - Test verisi için:
+    - Accuracy
+    - Precision
+    - Recall
+    - F1 Skoru
+    - Karmaşıklık Matrisi
+    - Classification Report
 
-Test verisi için ayrıca şu metrikler hesaplanmıştır:
-Accuracy
-Precision
-Recall
-F1 Skoru
-Karmaşıklık Matrisi
-Classification Report
+### Transfer Learning
 
-Transfer Learning:
+- Transfer Learning algoritmaları kullanılarak sınıflandırma yapılmıştır.
+- Eğitim, test ve doğruluk oranları aşağıda verilmiştir:
+  - Test verisi için:
+    - Accuracy
+    - Precision
+    - Recall
+    - F1 Skoru
+    - Karmaşıklık Matrisi
+    - Classification Report
 
-Transfer Learning algoritmaları kullanılarak sınıflandırma yapılmıştır.
-Eğitim, test ve doğruluk oranları aşağıda verilmiştir:
+### Yapay Sinir Ağı Tasarımı
 
-Test verisi için şu metrikler hesaplanmıştır:
-Accuracy
-Precision
-Recall
-F1 Skoru
-Karmaşıklık Matrisi
-Classification Report
+- Kendi özel Yapay Sinir Ağı tasarlanmış ve eğitilmiştir.
+- Test verisi için:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Skoru
+  - Karmaşıklık Matrisi
+  - Classification Report
 
-Yapay Sinir Ağı Tasarımı:
+### Kullanılan Teknolojiler
 
-Kendi özel Yapay Sinir Ağı tasarlanmış ve eğitilmiştir.
-Test verisi için şu metrikler hesaplanmıştır:
-Accuracy
-Precision
-Recall
-F1 Skoru
-Karmaşıklık Matrisi
-Classification Report
-
-Projede kullanılan teknolojiler: 
-Python
-TensorFlow
-Keras
-
+- Python
+- TensorFlow
+- Keras
 
 ---
-- **/Pneumonia(CNN-ANN-Transfer_Learning)**
-  - `CNN__Transfer_Learning__Test_0_20.ipynb` 
-  - `CNN__Transfer_Learning__Test_0_35.ipynb`
-  - `Artificial_Neural_Network_0_20.ipynb`
-  - `Artificial_Neural_Network_0_35.ipynb`
-- `README.md`
+
+## Kurulum
+
+
+# Projeyi Klonlayın
+
+```bash
+git clone https://github.com/kullanici_adi/Pneumonia(CNN-ANN-Transfer_Learning).git
+cd Pneumonia(CNN-ANN-Transfer_Learning)
 
 ## Kurulum
 
@@ -81,15 +82,13 @@ Projeyi Klonlayın:
 
 bash
 Copy code
-git clone https://github.com/kullanici_adi/Pneumonia(CNN-ANN-Transfer_Learning).git
+git clone https://github.com/MuhsinOztufekci/Pneumonia(CNN-ANN-Transfer_Learning).git
 cd Pneumonia(CNN-ANN-Transfer_Learning)
 
-Sanal Ortamı Oluşturun:
-
-bash
-Copy code
+# Projeyi Klonlayın
 python -m venv venv
 source venv/bin/activate   # Windows'ta: venv\Scripts\activate
+
 
 Gerekli Bağımlılıkları Yükleyin:
 
