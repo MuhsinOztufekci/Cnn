@@ -65,113 +65,95 @@ Bu proje, özel bir sınıflandırma görevini gerçekleştirmek için Convoluti
 
 ---
 
-## Kurulum
-
-
 # Projeyi Klonlayın
 
 ```bash
 git clone https://github.com/kullanici_adi/Pneumonia(CNN-ANN-Transfer_Learning).git
 cd Pneumonia(CNN-ANN-Transfer_Learning)
+Tabii ki, README dosyanızı daha düzgün bir görünüme kavuşturmak için aşağıda önerilen bir düzenleme var. Ayrıca, tüm komutları tek bir bash penceresinde çalıştırabilmek için uygun düzenlemeler yapıldı.
+
+```markdown
+# Projeyi Klonlayın
+
+```bash
+git clone https://github.com/kullanici_adi/Pneumonia(CNN-ANN-Transfer_Learning).git
+cd Pneumonia(CNN-ANN-Transfer_Learning)
+```
 
 ## Kurulum
 
-Kurulum Adımları
+### 1. Sanal Ortamı Oluşturun
 
-Projeyi Klonlayın:
-
-bash
-Copy code
-git clone https://github.com/MuhsinOztufekci/Pneumonia(CNN-ANN-Transfer_Learning).git
-cd Pneumonia(CNN-ANN-Transfer_Learning)
-
-# Projeyi Klonlayın
+```bash
 python -m venv venv
 source venv/bin/activate   # Windows'ta: venv\Scripts\activate
+```
 
+### 2. Gerekli Bağımlılıkları Yükleyin
 
-Gerekli Bağımlılıkları Yükleyin:
-
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+```
 
-Veri Setini İndirin:
+### 3. Veri Setini İndirin
 
-bash
-Copy code
+Proje veri setini indirme komutu (örnek olarak verilmiştir):
 
-# Proje veri seti indirme komutu (örnek olarak verilmiştir)
+```bash
 wget https://drive.google.com/file/d/1QlnV6PUZ3ic8M1_22cC5bAjJocYZKn1P/view
 unzip Pneumonia.zip
+```
 
-CNN - Transfer Learning Modelini Eğitin:
+### 4. CNN - Transfer Learning Modelini Eğitin
 
-bash
-Copy code
+```bash
 cd CNN__Transfer_Learning__Test_0_20.ipynb
 python train.py
+```
 
-Yapay Sinir Ağı Modelini Eğitin:
+### 5. Yapay Sinir Ağı Modelini Eğitin
 
-bash
-Copy code
+```bash
 cd Artificial_Neural_Network_0_35.ipynb
 python train.py
+```
 
-Modelleri Değerlendirin:
+### 6. Modelleri Değerlendirin
 
-bash
-Copy code
+```bash
 cd evaluation
 python evaluate.py
+```
 
-Projeyi Sonlandırın:
+### 7. Projeyi Sonlandırın
 
 Sanal ortamı sonlandırmak için:
 
-bash
-Copy code
+```bash
 deactivate   # Sanal ortamı kullandıysanız
-
-Notlar
-
-Projenin çalışabilmesi için gereken konfigürasyon dosyalarını (örneğin, model hyperparameters) kontrol edin ve gerekirse özelleştirin.
-Kullanılan kütüphanelerin sürümlerini belirtmek için requirements.txt dosyasını güncelleyin.
-
----
+```
 
 ## Kullanım
 
 Kurulum başlığı altındaki adımlar takip edilir. Ayrıca aşağıdaki adımlar kontrol edilir.
 
-Konfigürasyon Dosyaları:
-Projenin çeşitli özelliklerini yapılandırmak için config veya benzeri bir klasör içerisindeki dosyaları inceleyin.
-
-Veri Seti Düzeni:
-Proje, özel bir veri seti üzerinde çalışıyorsa, veri seti düzenini ve dosya yollarını projenizin ihtiyaçlarına göre özelleştirin.
-
-Model Hyperparameters:
-CNN veya Transfer Learning modellerinin hyperparameter'larını değiştirmek için train.py dosyalarındaki ilgili bölümleri inceleyin.
-
-Gelişmiş Kullanım:
-Projenizi daha fazla özelleştirmek veya geliştirmek istiyorsanız, belgeleri ve kaynak kodları inceleyerek daha derin bir anlayış elde edebilirsiniz.
----
+- **Konfigürasyon Dosyaları:** Projenin çeşitli özelliklerini yapılandırmak için config veya benzeri bir klasör içerisindeki dosyaları inceleyin.
+- **Veri Seti Düzeni:** Proje, özel bir veri seti üzerinde çalışıyorsa, veri seti düzenini ve dosya yollarını projenizin ihtiyaçlarına göre özelleştirin.
+- **Model Hyperparameters:** CNN veya Transfer Learning modellerinin hyperparameter'larını değiştirmek için `train.py` dosyalarındaki ilgili bölümleri inceleyin.
 
 ## Katkılar
 
-https://github.com/balfatih
-https://www.tensorflow.org/tutorials/images/transfer_learning?hl=tr
-https://medium.com/@batincangurbuz/konvol%C3%BCsyonel-sinir-a%C4%9Flar%C4%B1-evri%C5%9Fimli-sinir-a%C4%9Flar%C4%B1-olarak-da-bilinir-convolutional-neural-4ecd2c5ad842
-https://medium.com/@draj0718/convolutional-neural-networks-cnn-architectures-explained-716fb197b243
-https://www.tensorflow.org/tutorials/images/cnn?hl=tr
-https://www.geeksforgeeks.org/introduction-to-ann-set-4-network-architectures/
-
----
+- [https://github.com/balfatih](https://github.com/balfatih)
+- [https://www.tensorflow.org/tutorials/images/transfer_learning?hl=tr](https://www.tensorflow.org/tutorials/images/transfer_learning?hl=tr)
+- [https://medium.com/@batincangurbuz/konvol%C3%BCsyonel-sinir-a%C4%9Flar%C4%B1-evri%C5%9Fimli-sinir-a%C4%9Flar%C4%B1-olarak-da-bilinir-convolutional-neural-4ecd2c5ad842](https://medium.com/@batincangurbuz/konvol%C3%BCsyonel-sinir-a%C4%9Flar%C4%B1-evri%C5%9Fimli-sinir-a%C4%9Flar%C4%B1-olarak-da-bilinir-convolutional-neural-4ecd2c5ad842)
+- [https://medium.com/@draj0718/convolutional-neural-networks-cnn-architectures-explained-716fb197b243](https://medium.com/@draj0718/convolutional-neural-networks-cnn-architectures-explained-716fb197b243)
+- [https://www.tensorflow.org/tutorials/images/cnn?hl=tr](https://www.tensorflow.org/tutorials/images/cnn?hl=tr)
+- [https://www.geeksforgeeks.org/introduction-to-ann-set-4-network-architectures/](https://www.geeksforgeeks.org/introduction-to-ann-set-4-network-architectures/)
 
 ## İletişim
 
-m.berkiskal@gmail.com
-yesimdmr000@gmail.com 
-muhsinoztufek@gmail.com 
+- m.berkiskal@gmail.com
+- yesimdmr000@gmail.com 
+- muhsinoztufek@gmail.com 
+```
 
