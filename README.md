@@ -65,29 +65,30 @@ Bu proje, özel bir sınıflandırma görevini gerçekleştirmek için Convoluti
 
 ---
 
-### Projeyi Klonlayın
+## Kurulum
+
+### 1. Projeyi Klonlayın
 
 ```bash
 git clone https://github.com/kullanici_adi/Pneumonia(CNN-ANN-Transfer_Learning).git
 cd Pneumonia(CNN-ANN-Transfer_Learning)
 ```
 
-## Kurulum
 
-### 1. Sanal Ortamı Oluşturun
+### 2. Sanal Ortamı Oluşturun
 
 ```bash
 python -m venv venv
 source venv/bin/activate   # Windows'ta: venv\Scripts\activate
 ```
 
-### 2. Gerekli Bağımlılıkları Yükleyin
+### 3. Gerekli Bağımlılıkları Yükleyin
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Veri Setini İndirin
+### 4. Veri Setini İndirin
 
 Proje veri setini indirme komutu (örnek olarak verilmiştir):
 
@@ -96,28 +97,28 @@ wget https://drive.google.com/file/d/1QlnV6PUZ3ic8M1_22cC5bAjJocYZKn1P/view
 unzip Pneumonia.zip
 ```
 
-### 4. CNN - Transfer Learning Modelini Eğitin
+### 5. CNN - Transfer Learning Modelini Eğitin
 
 ```bash
 cd CNN__Transfer_Learning__Test_0_20.ipynb
 python train.py
 ```
 
-### 5. Yapay Sinir Ağı Modelini Eğitin
+### 6. Yapay Sinir Ağı Modelini Eğitin
 
 ```bash
 cd Artificial_Neural_Network_0_35.ipynb
 python train.py
 ```
 
-### 6. Modelleri Değerlendirin
+### 7. Modelleri Değerlendirin
 
 ```bash
 cd evaluation
 python evaluate.py
 ```
 
-### 7. Projeyi Sonlandırın
+### 8. Projeyi Sonlandırın
 
 Sanal ortamı sonlandırmak için:
 
