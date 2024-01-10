@@ -66,18 +66,12 @@ Keras
 
 
 ---
-
-## Proje Dosya Yapısı
-
--**/Pneumonia(CNN-ANN-Transfer_Learning)**
-	- `CNN__Transfer_Learning__Test_0_20.ipynb` 
-	- `CNN__Transfer_Learning__Test_0_35.ipynb`
-	- `Artificial_Neural_Network_0_20.ipynb`
-	- `Artificial_Neural_Network_0_35.ipynb`
+- **/Pneumonia(CNN-ANN-Transfer_Learning)**
+  - `CNN__Transfer_Learning__Test_0_20.ipynb` 
+  - `CNN__Transfer_Learning__Test_0_35.ipynb`
+  - `Artificial_Neural_Network_0_20.ipynb`
+  - `Artificial_Neural_Network_0_35.ipynb`
 - `README.md`
-
-
----
 
 ## Kurulum
 
